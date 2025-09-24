@@ -1,6 +1,5 @@
 header {
   text-align: center;
-  width: ;
 }
 header span {
   font-weight: normal;
@@ -50,4 +49,20 @@ h4 {
 #div2 {
   max-width: 800px;
   margin: 0% auto;
+}
+.ingrmet {
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(43, 41, 41);
+}
+div h3 {
+  border-bottom: 1px solid rgb(42, 202, 247);
+  padding: 20px;
+}
+footer {
+  max-width: 800px;
+  margin: 0% auto;
+}
+footer a {
+  color: rgb(2, 112, 103);
 }
