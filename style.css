@@ -9,11 +9,24 @@ header span {
   background-color: rgb(244, 237, 207);
   height: 40px;
   border-top: 1px solid rgb(212, 151, 9);
+  /* Flexbox */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 h1 {
   text-align: center;
 }
 #div1 {
+  max-width: 800px;
+  margin: 0% auto;
+}
+
+#imgdescription {
+  margin-bottom: 20px;
+}
+
+#div1 figcaption {
   text-align: center;
 }
 figcaption {
@@ -27,4 +40,14 @@ h4 {
 }
 .bold {
   font-weight: bold;
+}
+#lineagialla {
+  border-left: solid rgb(204, 197, 8);
+  padding-left: 15px;
+  max-width: 800px;
+  margin: 0% auto;
+}
+#div2 {
+  max-width: 800px;
+  margin: 0% auto;
 }
